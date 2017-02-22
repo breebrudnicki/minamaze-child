@@ -1,0 +1,228 @@
+/*
+ Theme Name:   Minamaze Child
+ Theme URI:    http://www.blueskiesdronerental.com/Minamaze-child/
+ Description:  Minamaze Theme child
+ Author:       Bree Carrick
+ Author URI:
+ Template:     minamaze
+ Version:      2.0.0
+ License: GNU General Public License
+ License URI: /licenses/license.txt
+ Tags: black, dark, red, one-column, two-columns, right-sidebar, left-sidebar, fixed-layout, responsive-layout, fluid-layout, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, editor-style, featured-images, featured-image-header, post-formats, sticky-post, translation-ready, flexible-header, gray, light, white, custom-background
+ Text Domain:  Minamaze-child
+*/
+
+@import 'partials/_colors.scss';
+@import 'partials/_fonts.scss';
+
+#google-operators-form{
+border-radius:15px;
+width:100%;
+}
+#payment > div.form-row.place-order > p > label > a{
+color:$main-two;
+text-decoration:underline;
+}
+.ui-accordion,.ui-accordion-header{
+background-color:$main-two;
+color:$gray-six;
+}
+.ui-accordion{
+padding-left:10px;
+padding-right:10px;
+border-radius:10px;
+}
+.ui-accordion-content{
+padding-left:5px;
+background-color:$gray-six;
+color:$gray-one;
+border-radius:5px;
+}
+.ui-accordion-content a {
+color:$main-two;
+}
+.woocommerce a.button,
+.woocommerce button.button.alt,
+.woocommerce a.button.alt,
+.woocommerce input.button,
+.themebutton{
+	color:$gray-six;
+	background-color:$main-two;
+}
+.woocommerce span.onsale{
+	background-color:$accent-orange-four;
+	color:$gray-six;
+}
+.woocommerce-checkout #payment{
+	background:$gray-five;
+}
+body,
+button,
+input,
+select,
+textarea,
+h1,h2,h3,h4,h5,h6,
+caption,
+.site-description {
+font-weight:600;
+color: $gray-one;
+}
+#place_order{
+background-color:$main-two;
+}
+#intro.option1 #intro-core:after{
+border-bottom: 3px solid $main-two;
+}
+#section-home-inner{
+border: 1px $gray-one solid;
+}
+#section-home .section{
+border:none;
+}
+
+p{
+font-size:1.1em;
+font-weight:600;
+}
+.woocommerce form .form-row.woocommerce-invalid .select2-container,
+.woocommerce form .form-row.woocommerce-invalid input.input-text,
+.woocommerce form .form-row.woocommerce-invalid select,
+input[type=text],
+input[type=email],
+input[type="password"],
+textarea{
+background: $gray-five;
+border: 1.5px solid $gray-one;
+border-color:$gray-one;
+}
+.wikitable{
+display:none;
+}
+.hidden{
+display:none;
+}
+.product .variations_form{
+display: none;
+}
+.summary .variations_form{
+display: block;
+}
+.reset_variations{
+color: red;
+font-size: 1.5em;
+}
+.summary-field-title {
+font-weight: bold;
+font-size: 14px;
+}
+.copyright {
+display: none;
+}
+#footer{
+border-top: $gray-two;
+}
+.option1{
+display: none;
+}
+.price {
+display: none;
+}
+#content{
+padding-bottom: 0px;
+}
+a .amount {
+display: none;
+}
+a img.so-widget-image {
+    width: 100px;
+}
+/**
+Body
+**/
+body {
+	padding: 0;
+}
+/**
+Header
+**/
+div#header,
+div#slider {
+	padding: 0;
+}
+@media only screen and (min-width: 768px) {
+	div#logo {
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px) {
+	div.custom-header {
+		display: none;
+	}
+}
+div.custom-header,
+div#header {
+	background-color: $gray-six;
+}
+div#logo {
+	margin: 0;
+	background-color: $gray-six;
+}
+div#logo img {
+	max-height: 200px;
+}
+/**
+ Navigation
+**/
+#header-links-inner{
+	display:inline;
+}
+.header-links ul.menu{
+	padding-right:3px;
+	padding-left:3px;
+}
+#header-links{
+	float:left;
+	text-decoration:none;
+}
+#header .header-links  ul  li a {
+	color: $gray-one;
+	font-size:1.5em;
+	text-decoration:none;
+}
+ul#menu-primary li a {
+	font-weight: normal;
+}
+div#header-links ul#menu-primary ul.sub-menu {
+	background-color: $gray-six;
+}
+div#header-links ul#menu-primary ul.sub-menu a {
+	color: $gray-one;
+}
+div#header-links ul#menu-primary ul.sub-menu a:hover {
+	color: $accent-orange-two;
+}
+#header .menu > li.menu-hover > a,
+#header .menu > li.current_page_item > a,
+#header .menu > li.current-menu-ancestor > a,
+#header .menu > li > a:hover {
+	color: $accent-orange-two;
+}
+/*Mobile*/
+div#header-responsive-inner ul li a {
+	color: $gray-one;
+}
+a.btn-navbar,
+div#header-core {
+	border: 0;
+	background-color: $gray-six;
+}
+a.btn-navbar span.icon-bar {
+	background-color: $accent-orange-two;
+}
+#header-responsive li a:hover,
+#header-responsive li.current_page_item a{
+	color: $main-one;
+}
+#header-responsive li.current_page_item ul.sub-menu li a{
+	color: $gray-one;
+}
